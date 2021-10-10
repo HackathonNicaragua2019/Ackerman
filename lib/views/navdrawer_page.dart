@@ -49,6 +49,12 @@ class NavDrawer extends StatelessWidget {
                   builder: (BuildContext context) => HomePage()));
             },
           ),
+          Divider(
+            color: Colors.grey,
+          ),
+          Divider(
+            color: Colors.grey,
+          ),
           ListTile(
             title: Text("Cerrar Sesión"),
             leading: IconButton(
