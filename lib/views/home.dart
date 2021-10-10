@@ -15,7 +15,11 @@ class Home extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(20.0),
             child: Card(
-              color: Colors.grey[100],
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(20),
+              ),
+              elevation: 50,
+              color: Colors.lightBlue[100],
               child: Column(
                 children: <Widget>[
                   Image.asset("images/imagen1.jpg",
@@ -51,6 +55,10 @@ class Home extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(20.0),
             child: Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(20),
+              ),
+              elevation: 50,
               color: Colors.grey[100],
               child: Column(
                 children: <Widget>[
@@ -87,6 +95,10 @@ class Home extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(20.0),
             child: Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(20),
+              ),
+              elevation: 50,
               color: Colors.grey[100],
               child: Column(
                 children: <Widget>[
@@ -123,6 +135,10 @@ class Home extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(20.0),
             child: Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(20),
+              ),
+              elevation: 50,
               color: Colors.grey[100],
               child: Column(
                 children: <Widget>[
@@ -159,6 +175,10 @@ class Home extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(20.0),
             child: Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(20),
+              ),
+              elevation: 50,
               color: Colors.grey[100],
               child: Column(
                 children: <Widget>[
@@ -195,6 +215,10 @@ class Home extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(20.0),
             child: Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(20),
+              ),
+              elevation: 50,
               color: Colors.grey[100],
               child: Column(
                 children: <Widget>[

@@ -1,5 +1,5 @@
-import 'package:atl_harvest_movil/views/detalle_home.dart';
 import 'package:atl_harvest_movil/views/home.dart';
+import 'package:atl_harvest_movil/views/home_detalle.dart';
 import 'package:atl_harvest_movil/views/listaForo_page.dart';
 import 'package:atl_harvest_movil/views/login_page.dart';
 //import 'package:atl_harvest_movil/views/home_page.dart';
