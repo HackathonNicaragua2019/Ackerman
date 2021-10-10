@@ -1,6 +1,7 @@
 //import 'package:atl_harvest_movil/views/home_page.dart';
 //import 'package:atl_harvest_movil/views/home.dart';
-import 'package:atl_harvest_movil/views/home_page.dart';
+//import 'package:atl_harvest_movil/views/home_page.dart';
+import 'package:atl_harvest_movil/views/login_page.dart';
 //import 'package:atl_harvest_movil/views/home_page.dart';
 //import 'package:atl_harvest_movil/views/login_page.dart';
 import 'package:flutter/material.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'ATL HARVEST',
       // ignore: prefer_const_constructors
-      home: HomePage(),
+      home: LoginPage(),
     );
   }
 }
