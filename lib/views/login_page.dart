@@ -26,9 +26,7 @@ class _LoginPageState extends State<LoginPage> {
                 ],
               ),
             ),
-            child: Image.network(
-              "https://www.pinclipart.com/picdir/big/573-5736105_sprinkler-repair-company-logo-tatuaje-gota-de-agua.png",
-            ),
+            child: Image.asset("images/logo.png"),
           ),
           Transform.translate(
             offset: const Offset(0, 10),
