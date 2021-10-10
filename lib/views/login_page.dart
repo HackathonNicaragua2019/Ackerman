@@ -63,7 +63,9 @@ class _LoginPageState extends State<LoginPage> {
                           textColor: Colors.white,
                           color: Theme.of(context).primaryColor,
                           padding: const EdgeInsets.symmetric(vertical: 15),
-                          onPressed: () => _login(context),
+                          onPressed: () {
+                            Navigator.pushNamed(context, '/listaforo');
+                          },
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: <Widget>[
