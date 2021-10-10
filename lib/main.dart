@@ -1,6 +1,6 @@
-//import 'package:atl_harvest_movil/views/home_page.dart';
-//import 'package:atl_harvest_movil/views/home.dart';
-//import 'package:atl_harvest_movil/views/home_page.dart';
+import 'package:atl_harvest_movil/views/detalle_home.dart';
+import 'package:atl_harvest_movil/views/home.dart';
+import 'package:atl_harvest_movil/views/listaForo_page.dart';
 import 'package:atl_harvest_movil/views/login_page.dart';
 //import 'package:atl_harvest_movil/views/home_page.dart';
 //import 'package:atl_harvest_movil/views/login_page.dart';
@@ -17,10 +17,17 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // ignore: prefer_const_constructors
     return MaterialApp(
+      initialRoute: 'inicio',
+      routes: {
+        'inicio': (context) => const Home(),
+        '/detallehome': (context) => DetalleHome(),
+        '/login': (context) => const LoginPage(),
+        '/listaforo': (context) => listaForo(),
+      },
       debugShowCheckedModeBanner: false,
       title: 'ATL HARVEST',
       // ignore: prefer_const_constructors
-      home: LoginPage(),
+      home: Home(),
     );
   }
 }
