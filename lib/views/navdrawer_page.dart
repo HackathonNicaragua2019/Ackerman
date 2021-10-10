@@ -1,4 +1,4 @@
-import 'package:atl_harvest_movil/views/home_page.dart';
+import 'package:atl_harvest_movil/views/home.dart';
 import 'package:flutter/material.dart';
 import 'package:atl_harvest_movil/views/listaForo_page.dart';
 
@@ -45,8 +45,8 @@ class NavDrawer extends StatelessWidget {
             ),
             onTap: () {
               Navigator.of(context).pop();
-              Navigator.of(context).push(MaterialPageRoute(
-                  builder: (BuildContext context) => HomePage()));
+              Navigator.of(context).push(
+                  MaterialPageRoute(builder: (BuildContext context) => Home()));
             },
           ),
           Divider(
