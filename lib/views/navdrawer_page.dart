@@ -26,7 +26,7 @@ class NavDrawer extends StatelessWidget {
                   Expanded(
                     flex: 6,
                     child: Text(
-                      "Codes Insider",
+                      "Cristian Nodal",
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 16,
@@ -50,9 +50,9 @@ class NavDrawer extends StatelessWidget {
             },
           ),
           ListTile(
-            title: Text("Foros de discución"),
+            title: Text("Cerrar Sesión"),
             leading: IconButton(
-              icon: Icon(Icons.account_circle),
+              icon: Icon(Icons.logout),
               onPressed: () {
                 Navigator.of(context).pop();
               },
@@ -61,6 +61,7 @@ class NavDrawer extends StatelessWidget {
               Navigator.of(context).pop();
               Navigator.of(context).push(MaterialPageRoute(
                   builder: (BuildContext context) => listaForo()));
+              //Reparar la salida para cerrar sesion y redirigir a homepage
             },
           ),
           Divider(
